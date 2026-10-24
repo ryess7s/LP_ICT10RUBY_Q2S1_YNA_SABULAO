@@ -7,7 +7,9 @@ def candidate_checker(e):
     candidate = f_name + ' ' + l_name
 
     member_checker = candidate.lower() in club_members
-    messages = (f'Sorry {candidate}, your name is not on the list.' 
-                f'Congratulations {candidate}, you are now part of the Glee Club!')
+messages = (
+    f'Sorry {candidate}, your name is not on the list.',
+    f'Congratulations {candidate}, you are now part of the Glee Club!'
+)
 
     document.getElementById('result').innerHTML = messages [member_checker]
