@@ -12,4 +12,4 @@ messages = (
     f'Congratulations {candidate}, you are now part of the Glee Club!'
 )
 
-    document.getElementById('result').innerHTML = messages [member_checker]
+    document.getElementById('result').innerHTML = messages
